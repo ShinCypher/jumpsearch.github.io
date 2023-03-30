@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  height: 100px;
+  background-image: url("./image/wallpaper.jpg");
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 30px;
+  background-size: cover;
+  background-position: 0%;
+}
+
+nav{
+  display: flex;
+}
+
+.JSA{
+  margin: auto;
+}
+
+.logo{
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 5px; 
+  width: 100px; 
+  justify-content: space-around;
+}
+body{
+  background-image: url(./image/background_body.jpg);
+}
+.algorithm{
+  height: 150px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.block1{
+  background-color: red;
+}
+
+footer{
+  display: flex;
+  background-color: #ddd;
+}
