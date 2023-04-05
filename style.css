@@ -35,7 +35,7 @@ body{
   background-image: url(./image/background_body.jpg);
 }
 .algorithm{
-  height: 150px;
+  height: 120px;
   background-color: white;
   display: flex;
   justify-content: space-around;
@@ -43,6 +43,48 @@ body{
 }
 .block1{
   background-color: red;
+}
+
+.show{
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex: 4;
+}
+
+.show_code{
+  background-color: rgb(255, 0, 0);
+  flex: 1;
+}
+
+.show_effect{
+  background-color: black;
+  background-image: url("./image/bg_sky.jpg");
+  flex: 3;
+  display:list-item;
+}
+.mario3D{
+  background-color: red;
+  flex: 50%;
+}
+.marioImg{
+  width:75px;
+  padding: 5px;
+  background-color: black;
+}
+
+.cloud3D{
+  background-color: blue;
+  flex: 35%;
+}
+.cloudImg{
+  width: 100px;
+  background-color: black;
+}
+.number{
+  display: flex;
+  flex: 15%;
+
 }
 
 footer{
